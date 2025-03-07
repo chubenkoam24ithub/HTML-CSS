@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navigation = document.querySelector('.navigation');
     const closeButton = document.querySelector('.navigation__close');
     const overlay = document.querySelector('.navigation__overlay');
-    const homeLink = document.querySelector('.navigation__link[href="#promo"]'); // Выбираем ссылку Home
+    const homeLink = document.querySelector('.navigation__link[href="#promo"]'); 
 
     burger.addEventListener('click', () => {
         navigation.classList.remove('navigation--closed');
