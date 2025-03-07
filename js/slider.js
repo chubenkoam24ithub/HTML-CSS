@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevButton = document.querySelector('.slider__button--prev');
     const nextButton = document.querySelector('.slider__button--next');
     const indicators = document.querySelectorAll('.slider__indicator');
-    const sliderItems = document.querySelectorAll('.slider__item'); // Выбираем все элементы слайдера
+    const sliderItems = document.querySelectorAll('.slider__item'); 
     let currentSlide = 0;
 
     function updateSlider() {
